@@ -1,0 +1,20 @@
+Package: bonusPack
+Type: Package
+Title: ridgreg 
+Version: 1.0.0
+Date: 2021-10-29
+Author: Hamed and Omid
+Maintainer: Hamed <hamed.godazgar@gmail.com>
+Description: ridgreg
+License: GPL (>2)
+Encoding: UTF-8
+Imports: ggplot2, dplyr, nycflights13
+LazyData: true
+Depends: R (>= 3.5)
+RoxygenNote: 7.1.2
+Suggests: 
+    rmarkdown,
+    knitr,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+VignetteBuilder: knitr
